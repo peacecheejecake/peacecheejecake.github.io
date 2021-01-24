@@ -14,25 +14,25 @@ layout: default
     <span class="post-meta">{{ site.text.post.updated | default: "Updated" }}: {{ page.update_date | date: site.date_format }} |</span>
   {% endif %}
   <span class="post-meta small">
-  {% if page.minutes %}
+  <!-- {% if page.minutes %}
     {{ page.minutes }} {{ site.text.post.minute_read | default: "minute read" }}
   {% else %}
     {{ minutes }} {{ site.text.post.minute_read | default: "minute read" }}
-  {% endif %}
+  {% endif %} -->
   </span>
 </div>
 
 <article class="post-content">
   {{ content }}
 </article>
-
+<!-- 
 {% if site.show_sharing_icons %}
   {% include share_buttons.html %}
 {% endif %}
 
 {% if site.show_post_footers %}
   {% include post_footer.html %}
-{% endif %}
+{% endif %} -->
 <!-- 
 {% if site.disqus_shortname %}
   <div id="disqus_thread"></div>
