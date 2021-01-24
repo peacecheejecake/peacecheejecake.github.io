@@ -14,24 +14,24 @@ google_analytics:
 
 # Optional features
 animated:             true
-show_related_posts:   true
-show_post_footers:    true
+show_related_posts:   false
+show_post_footers:    false
 show_social_icons:    true
 
 # Preview image for social media aka og:image and twitter:image
 post_preview_image: false
 
 # Disqus post comments
-disqus_shortname:
+# disqus_shortname:
 
 # Social icons
-github_username: saikiransripada
-twitter_username: wp_user
-linkedin_username: saikiransripada
-dev_username: dev_user
+github_username: peacecheejecake
+# twitter_username: wp_user
+# linkedin_username: saikiransripada
+# dev_username: dev_user
 
 # Post sharing icons
-show_sharing_icons: true
+show_sharing_icons: false
 # Change to 'true' to enable individual icons
 share_facebook: true
 share_twitter: true
