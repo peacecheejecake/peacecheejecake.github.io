@@ -1,0 +1,18 @@
+---
+layout:     post
+title:      안녕하세요
+date:       2021-01-25 09:31:19
+summary:    summary
+categories: jekyll mixyll
+---
+
+새로운 블로그에요
+
+```python
+def some_new_function():
+    print('this is tab')
+    a = 1
+    print('this is space')
+    a += 3
+    return a
+```
